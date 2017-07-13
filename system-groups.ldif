@@ -1,0 +1,143 @@
+dn: CN=Allowed RODC Password Replication Group,CN=Users,DC=trendworks,DC=lan
+changetype: modify
+add: msSFU30NisDomain
+msSFU30NisDomain: trendworks
+add: msSFU30Name
+msSFU30Name: Allowed RODC Password Replication Group
+add: gidNumber
+gidNumber: 571
+
+dn: CN=Enterprise Read-only Domain Controllers,CN=Users,DC=trendworks,DC=lan
+changetype: modify
+add: msSFU30NisDomain
+msSFU30NisDomain: trendworks
+add: msSFU30Name
+msSFU30Name: Enterprise Read-only Domain Controllers
+add: gidNumber
+gidNumber: 498
+
+dn: CN=Denied RODC Password Replication Group,CN=Users,DC=trendworks,DC=lan
+changetype: modify
+add: msSFU30NisDomain
+msSFU30NisDomain: trendworks
+add: msSFU30Name
+msSFU30Name: Denied RODC Password Replication Group
+add: gidNumber
+gidNumber: 572
+
+dn: CN=Read-only Domain Controllers,CN=Users,DC=trendworks,DC=lan
+changetype: modify
+add: msSFU30NisDomain
+msSFU30NisDomain: trendworks
+add: msSFU30Name
+msSFU30Name: Read-only Domain Controllers
+add: gidNumber
+gidNumber: 521
+
+dn: CN=Group Policy Creator Owners,CN=Users,DC=trendworks,DC=lan
+changetype: modify
+add: msSFU30NisDomain
+msSFU30NisDomain: trendworks
+add: msSFU30Name
+msSFU30Name: Group Policy Creator Owners
+add: gidNumber
+gidNumber: 520
+
+dn: CN=RAS and IAS Servers,CN=Users,DC=trendworks,DC=lan
+changetype: modify
+add: msSFU30NisDomain
+msSFU30NisDomain: trendworks
+add: msSFU30Name
+msSFU30Name: RAS and IAS Servers
+add: gidNumber
+gidNumber: 553
+
+dn: CN=Domain Controllers,CN=Users,DC=trendworks,DC=lan
+changetype: modify
+add: msSFU30NisDomain
+msSFU30NisDomain: trendworks
+add: msSFU30Name
+msSFU30Name: Domain Controllers
+add: gidNumber
+gidNumber: 516
+
+dn: CN=Enterprise Admins,CN=Users,DC=trendworks,DC=lan
+changetype: modify
+add: msSFU30NisDomain
+msSFU30NisDomain: trendworks
+add: msSFU30Name
+msSFU30Name: Enterprise Admins
+add: gidNumber
+gidNumber: 519
+
+dn: CN=Domain Computers,CN=Users,DC=trendworks,DC=lan
+changetype: modify
+add: msSFU30NisDomain
+msSFU30NisDomain: trendworks
+add: msSFU30Name
+msSFU30Name: Domain Computers
+add: gidNumber
+gidNumber: 515
+
+dn: CN=Cert Publishers,CN=Users,DC=trendworks,DC=lan
+changetype: modify
+add: msSFU30NisDomain
+msSFU30NisDomain: trendworks
+add: msSFU30Name
+msSFU30Name: Cert Publishers
+add: gidNumber
+gidNumber: 517
+
+dn: CN=DnsUpdateProxy,CN=Users,DC=trendworks,DC=lan
+changetype: modify
+add: msSFU30NisDomain
+msSFU30NisDomain: trendworks
+add: msSFU30Name
+msSFU30Name: DnsUpdateProxy
+add: gidNumber
+gidNumber: 1102
+
+dn: CN=Domain Admins,CN=Users,DC=trendworks,DC=lan
+changetype: modify
+add: msSFU30NisDomain
+msSFU30NisDomain: trendworks
+add: msSFU30Name
+msSFU30Name: Domain Admins
+add: gidNumber
+gidNumber: 512
+
+dn: CN=Domain Guests,CN=Users,DC=trendworks,DC=lan
+changetype: modify
+add: msSFU30NisDomain
+msSFU30NisDomain: trendworks
+add: msSFU30Name
+msSFU30Name: Domain Guests
+add: gidNumber
+gidNumber: 514
+
+dn: CN=Schema Admins,CN=Users,DC=trendworks,DC=lan
+changetype: modify
+add: msSFU30NisDomain
+msSFU30NisDomain: trendworks
+add: msSFU30Name
+msSFU30Name: Schema Admins
+add: gidNumber
+gidNumber: 518
+
+dn: CN=Domain Users,CN=Users,DC=trendworks,DC=lan
+changetype: modify
+add: msSFU30NisDomain
+msSFU30NisDomain: trendworks
+add: msSFU30Name
+msSFU30Name: Domain Users
+add: gidNumber
+gidNumber: 513
+
+dn: CN=DnsAdmins,CN=Users,DC=trendworks,DC=lan
+changetype: modify
+add: msSFU30NisDomain
+msSFU30NisDomain: trendworks
+add: msSFU30Name
+msSFU30Name: DnsAdmins
+add: gidNumber
+gidNumber: 1101
